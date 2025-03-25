@@ -28,6 +28,6 @@ def create_streamlit_app(llm: Chain, portfolio: Portfolio, clean_text):
 
 if __name__ == "__main__":
     chain = Chain()
-    portfolio = Portfolio("app/resource/my_portfolio.csv")
+    portfolio = Portfolio("app_1/resource/my_portfolio.csv")
     st.set_page_config(layout="wide", page_title="Cold Email Generator", page_icon="📧")
     create_streamlit_app(chain, portfolio, clean_text)

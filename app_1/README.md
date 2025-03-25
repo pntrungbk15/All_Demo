@@ -23,17 +23,21 @@
 - **Giao diện Web:**  
   - Ứng dụng sử dụng Streamlit (file `main.py`) để xây dựng giao diện người dùng.
   - Người dùng chỉ cần nhập URL của trang tuyển dụng và nhấn "Submit" để nhận về nội dung email cold email được tạo tự động.
+  - Kết quả hiển thị kèm hình ảnh minh họa (`assets/image.jpg`).
 
 ## Cấu trúc dự án
 
+```
 app_1/
 ├── chain.py         # Định nghĩa lớp Chain để tương tác với LLM, trích xuất thông tin và tạo email.
 ├── main.py          # Ứng dụng Streamlit chính, xử lý input từ người dùng và hiển thị kết quả.
 ├── portfolio.py     # Quản lý portfolio, tải dữ liệu từ CSV và thực hiện truy vấn với ChromaDB.
 ├── utils.py         # Chứa hàm xử lý văn bản, ví dụ: làm sạch HTML.
-└── resource/
-    └── my_portfolio.csv   # Dữ liệu danh mục portfolio (mẫu) cho hệ thống.
-
+├── resource/
+│   └── my_portfolio.csv   # Dữ liệu danh mục portfolio (mẫu) cho hệ thống.
+└── assets/
+    └── image.jpg    # Ảnh minh họa kết quả hiển thị.
+```
 
 ## Yêu cầu
 - Python 3.7 trở lên
@@ -41,3 +45,4 @@ app_1/
 - LangChain
 - dotenv
 - ChromaDB
+
