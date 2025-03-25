@@ -24,6 +24,7 @@
   - Ứng dụng sử dụng Streamlit (file `main.py`) để xây dựng giao diện người dùng.
   - Người dùng chỉ cần nhập URL của trang tuyển dụng và nhấn "Submit" để nhận về nội dung email cold email được tạo tự động.
   - Kết quả hiển thị kèm hình ảnh minh họa (`assets/image.jpg`).
+  ![](assets/image.jpg)
 
 ## Cấu trúc dự án
 
