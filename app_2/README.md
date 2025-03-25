@@ -65,5 +65,5 @@
 - `langchain_help.py`: Chứa các hàm hỗ trợ liên quan đến LangChain, bao gồm tạo truy vấn SQL từ ngôn ngữ tự nhiên và thực thi truy vấn.
 - `few_shots.py`: Cung cấp các ví dụ mẫu (few-shot examples) để cải thiện độ chính xác của mô hình khi chuyển đổi ngôn ngữ tự nhiên sang SQL.
 
-## Hình ảnh minh họa
+## Hình ảnh khi chạy UI
 ![](assets/image.jpg)
